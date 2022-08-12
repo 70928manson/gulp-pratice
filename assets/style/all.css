@@ -329,7 +329,7 @@ body {
 .banner {
   height: calc(100vh - 80px);
   /*滿屏*/
-  background-image: url(../images/home-header.png);
+  background-image: url("../images/home-header.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -548,7 +548,7 @@ body {
 
 /*joint聯名*/
 .joint {
-  background-image: url(../images/index-bg.png);
+  background-image: url("../images/index-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -605,14 +605,14 @@ body {
     width: 100%; } }
 
 .joint .joint-d {
-  background-image: url(../images/home-section4-1.png);
+  background-image: url("../images/home-section4-1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 240px; }
 
 .joint .joint-y {
-  background-image: url(../images/home-section4-2.png);
+  background-image: url("../images/home-section4-2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -620,9 +620,9 @@ body {
 
 @media screen and (max-width: 575px) {
   .joint .joint-d {
-    background-image: url(../images/home-section4-1-sm.png); }
+    background-image: url("../images/home-section4-1-sm.png"); }
   .joint .joint-y {
-    background-image: url(../images/home-section4-2-sm.png); } }
+    background-image: url("../images/home-section4-2-sm.png"); } }
 
 .joint h3 {
   font-size: 48px;
